@@ -1,2 +1,2 @@
 # festivalMusica
- Pequeña pagina para utilizar nodeJS y Gulp
+ Pequeña página para utilizar nodeJS y Gulp
