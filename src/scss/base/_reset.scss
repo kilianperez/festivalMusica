@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+img {
+	max-width: 100%;
+	width: 100%;
+	display: flex;
+	object-fit: cover;
+	object-position: center center;
+}
+a {
+	// display: flex;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+video {
+	// max-width: 100%;
+	// width: 100%;
+	// display: flex;
+	object-fit: cover;
+	object-position: center center;
+}
+p a {
+	display: inline;
+}
+li {
+	list-style-type: none;
+}
+table,
+tr,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	hyphens: auto;
+	font-weight: inherit;
+	font-size: inherit;
+}
+::selection {
+	background-color: $negro;
+	color: $blanco;
+}
+
+form {
+	input,
+	textarea,
+	select {
+		font-family: inherit;
+		font-size: inherit;
+		hyphens: auto;
+		background-color: transparent;
+		// appearance: none;
+		display: flex;
+	}
+}
+html {
+//   scroll-behavior: smooth;
+  // adaptamos todo a rem 
+	font-size: 62.5%; 
+}
+body {
+	font-family: $tipo-principal;
+	font-size: 100%;
+	line-height: 1.4em;
+	min-height: 100vh;
+	background-color: $blanco;
+	hyphens: auto;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	//  adaptamos todo a rem 1rem = 10px
+	font-size: 16px;
+}

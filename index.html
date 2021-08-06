@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock & EDM Festival</title>
+		<link rel="stylesheet" href="build/css/app.css" />
+		<script src="./build/js/bundle.min.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="contenedor contenido-header">
+				<h1>Rock & EDM Festival</h1>
+				<nav class="navegacion-principal">
+					<a href="#lineup">Line Up</a>
+					<a href="#galeria">Galería</a>
+					<a href="#entradas">Entradas</a>
+				</nav>
+			</div>
+		</header>
+		<div class="video">
+			<div class="overlay">
+				<div class="contenedor contenido-video">
+					<h2>
+						Rock & EDM Festival
+						<span>Julio 2021, Madrid, España</span>
+					</h2>
+				</div>
+			</div>
+			<video autoplay muted loop>
+				<source src="video/concierto.mp4" type="video/mp4" />
+				<source src="video/concierto.ogg" type="video/ogg" />
+				<source src="video/concierto.webm" type="video/webm" />
+			</video>
+		</div>
+		<div class="contenedor sobre-festival">
+			<div class="imagen">
+				<img src="./build/img/imagen_vocalista.jpg" alt="" />
+			</div>
+			<div class="contenido-festival">
+				<h2>Rock & EDM Festival</h2>
+				<p class="fecha">Agosto 2021, Madrid, España</p>
+				<p class="texto">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt ipsam
+					suscipit, voluptate magnam iste, laborum eos harum cum officia recusandae laudantium
+					soluta ad corporis atque. Tempore veniam laudantium ratione?
+				</p>
+			</div>
+		</div>
+		<section id="lineup" class="line-up bg-rosa">
+			<h3>Line-Up</h3>
+			<p class="dia">Viernes 21</p>
+			<div class="contenido-escenarios contenedor">
+				<div class="escenario rock bg-amarillo">
+					<p class="nombre-escenario">Escenario Rock</p>
+					<ul class="calendario">
+						<li>24:00 | <span>Metallica</span></li>
+						<li>22:00 | <span>Extemoduro</span></li>
+						<li>21:00 | <span>Barricada</span></li>
+						<li>20:00 | <span>Los Planetas</span></li>
+						<li>19:00 | <span>Héroes del Silencio</span></li>
+						<li>18:00 | <span>La Polla Records</span></li>
+						<li>17:00 | <span>Platero y Tú</span></li>
+					</ul>
+				</div>
+				<div class="escenario edm bg-verde">
+					<p class="nombre-escenario">Escenario EDM</p>
+					<ul class="calendario">
+						<li>24:00 | <span>Calvin Harris</span></li>
+						<li>22:00 | <span>TOKiMONSTA</span></li>
+						<li>21:00 | <span>Whipped Cream</span></li>
+						<li>20:00 | <span>Dimitri Vegas</span></li>
+						<li>19:00 | <span>Mija</span></li>
+						<li>18:00 | <span>Rezz</span></li>
+						<li>17:00 | <span>Alison Wonderland</span></li>
+					</ul>
+				</div>
+			</div>
+			<p class="dia">Sabado 22</p>
+			<div class="contenido-escenarios contenedor">
+				<div class="escenario rock bg-verde">
+					<p class="nombre-escenario">Escenario Rock</p>
+					<ul class="calendario">
+						<li>24:00 | <span>Coldplay</span></li>
+						<li>22:00 | <span>Nothing but Thieves</span></li>
+						<li>21:00 | <span>Sheer Mag</span></li>
+						<li>20:00 | <span>Bombay</span></li>
+						<li>19:00 | <span>Nelson Can</span></li>
+						<li>18:00 | <span>Los Zigarros</span></li>
+						<li>17:00 | <span>Band of Skulls</span></li>
+					</ul>
+				</div>
+				<div class="escenario edm bg-amarillo">
+					<p class="nombre-escenario">Escenario EDM</p>
+					<ul class="calendario">
+						<li>24:00 | <span>Srillex</span></li>
+						<li>22:00 | <span>Calvin Harris</span></li>
+						<li>21:00 | <span>David Guetta</span></li>
+						<li>20:00 | <span>Dimitri Vegas</span></li>
+						<li>19:00 | <span>Martin Garrix</span></li>
+						<li>18:00 | <span>Tiësto</span></li>
+						<li>17:00 | <span>Hardwell</span></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="galeria" class="galeria contenedor">
+			<h3>Galería</h3>
+			<ul class="galeria-imagenes"></ul>
+		</section>
+		<section id="entradas" class="entradas bg-verde">
+			<h3>Entradas</h3>
+			<div class="contenido-entradas contenedor">
+				<div class="basico plan">
+					<p>Pase 1 día</p>
+					<table class="pase">
+						<thead>
+							<tr>
+								<th>Incluye</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Acceso a todos los escenarios</td>
+							</tr>
+							<tr>
+								<td>Comida y bebida</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td>100€</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+				<div class="premium plan">
+					<p>Pase 2 días</p>
+					<table class="pase">
+						<thead>
+							<tr>
+								<th>Incluye</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Acceso a todos los escenarios</td>
+							</tr>
+							<tr>
+								<td>Comida y bebida</td>
+							</tr>
+							<tr>
+								<td>Camisa del evento</td>
+							</tr>
+							<tr>
+								<td>Acceso vip</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td>200€</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</section>
+	</body>
+	<footer class="footer bg-rosa">
+		<p>Rock & EDM Festival. Todos los Derechos Reservados</p>
+	</footer>
+</html>
